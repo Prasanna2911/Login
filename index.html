@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="webs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    <div class="box">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      <div class="form">
+         <form method="get" class="form">
+            <div class="input-box">
+                <i class="fa fa-user icon"></i>
+                <input type="text" name="name" id="name"  autocomplete="off" size="30" maxlength="30"   required>
+                <label for="name">NAME</label>
+                
+            </div>
+            <div class="input-box">
+                <i class="fa fa-lock icon" aria-hidden="true"></i>
+                <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z](?=.*[A-Z]).{8,}" title="Password must be more than 8 letters" size="30" maxlength="30" required>
+                <label for="password">PASSWORD</label>
+                
+            </div>
+            <div class="button">
+                <button value="start">START</button>
+            </div>
+         </form>
+      </div>
+    </div>
+    
+</body>
+</html>
